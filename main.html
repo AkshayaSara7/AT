@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AT</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background-color: #bc8dd6;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .page {
+      display: none;
+      padding: 60px 20px;
+    }
+
+    .active {
+      display: block;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #350262;
+    }
+
+    button {
+      background-color: #5577bf;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #790cab;
+    }
+
+    img {
+      width: 250px;
+      margin: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .message {
+      font-size: 22px;
+      color: #d02b4f;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="page1" class="page active">
+    <h1>Hieee babyyyy!!</h1>
+    <p>Umm...em ledhu, edho ala timepass anthey.<br>
+        May be I've smthg for u👀
+    </p>
+    <button onclick="goToPage2()">~ Click ~</button>
+  </div>
+
+  <div id="page2" class="page">
+    <img src="p1.jpg" alt="AT" width="200" height="300">
+    <div class="message">
+      Hello loveee!<br>
+      okay...first of all, Thank youuuu sooo muchhhhh for being my first and onlyyy love❤️.
+      You really mean the world to me and I'm not kidding! you are the mosttttt
+      important person to me in my life🥺. I'll always be grateful to have u as my boyfriend,
+      for me...u existing in my life itself was very precious and I feel really happy 
+      whenever it suddenly strikes me like "He's mine? YESS!! HE IS FUCKING MINE"...As I always tell u you are my HOME,
+      my comfort zone where I can be myself... genuinely you deserve all the happiness in the world! You've always been
+      very nice to me, always stood by my side, listened to all my rants and given me so much love😙😙.
+      Ik I hurt u so much at times and I regret it soo muchhh, I don't like seeing get hurt especially bcoz of me, 
+      I will always be sorry for all the mistakes I did and I will carry the regret wid me all the time. I loveeee youuuuu soo
+      sooo sooooo muchhhhhh nana🫀❤️ and one more thing is thanks for being there for me at all times especially at my lowest🫂💗
+      Edhi entha ayina, nen ninnu entha hurt chesina...u never left me, u made me learn through my mistakes all the time...na 
+      bangarammmm nana nuvvu🥹🤌💗.I really wish I'm that person in ur life whom u can share anything,who cld comfort u when smthg goes wrong
+      and whom u cld go when you are at ur lowest but then jst remember when world is harsh to u I'll alwalys be the one to love u. You are the BESTTTESSTTTTTTTT!!!!
+      I'm very lucky to have u as my first love, words aren't jst enough to 
+      express how much u mean to me and how much I love you out of everyone. No matter what I promise 
+      to give all u want and to give all the loveeeee.....I really want us to be together forever, I know we will🤞🏻🧿.
+      I really wish to spend alot of time wid u, for this life...evaru lekapoyina nuv unte chaalu naaku,When I'm wid you
+      I have some kind of warm, comfortable feeling. I really love the way u call me wid names...especially when u say "Ammuuuu" or "Gaajubomma" I melt down right there🫠🫠.
+      I really love the way u care for me, You're my whole heart🫶🏻🫶🏻....chepthu unte inka
+      chaala chaala cheppali anipisthadhi kaani nak express cheyyadam raatle, I really like making u feel special...antey that's my
+      way of showing u how important and how much worth u have in my life ani anuko....I don't fake it though, Every word comes through my heart.
+      I reallyyyy reallyyyyyy miss youuuu sooo muchhhhhh!!😭😭😭 Let's meet ASAP! and as I always say I loveee youuuu
+      soooo muchhhhh nana and I mean it.
+    </div>
+    <hr>
+      This is my version of virtual love letter!...hehe<hr>
+    <video width="160" height="200" controls>
+      <source src="v1.mp4" type="video/mp4">
+    </video><br>
+    <div class="message">Lookkkk how happyyyy I look when I'm wid u...I jst want us to be much better and
+    happy together for the rest of our lives🥹.Myyyy babyyyyy onlyyyyy youu areeee!!!!😙😙😙
+    You are literallyyyyy the cuteestttttt😭😭🫶🏻. <br>
+    #Tanakshaya forever♾️❤️ <br><hr>
+    👇🏻Last one yet not the least👇🏻
+  </div>
+  <a href="v2.mp4"><img src="p2.jpg" alt="pic"></a>
+  </div>
+  <script>
+    function goToPage2() {
+      document.getElementById('page1').classList.remove('active');
+      document.getElementById('page2').classList.add('active');
+    }
+  </script>
+</body>
+</html>
